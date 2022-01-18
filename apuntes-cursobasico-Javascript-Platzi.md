@@ -1,5 +1,5 @@
 <!-- IMAGEN DE INICIO -->
-
+<a name="inicio"></a>
 ![Javascript logo](javascript-logo.png)
 
 <!-- CONTENIDO CURSO -->
@@ -64,6 +64,7 @@
 
 # **<span style="color:red"> Modulo 1 Introducción a JavaScript </span>** 
 
+[**Volver al inicio**](#inicio)
 <a name="clase1"></a>
 ## **<span style="color:yellow"> **Clase 1** ¿Qué es JavaScript? </span>** 
 
@@ -85,6 +86,7 @@ Corre directamente en la etapa de Runetime sin una etapa de compilación previa.
 
 Si, y la razón es que el navegador lee linea por linea nuestro código el cuál le indica lo que tiene que hacer, sin la necesidad de compilar. Todo esto es controlado por el motor de Javascript V8 del navegador
 
+[**Volver al inicio**](#inicio)
 <a name="clase2"></a>
 ## **<span style="color:yellow"> **Clase 2** ¿Por qué JavaScript? </span>** 
 
