@@ -85,4 +85,10 @@ Corre directamente en la etapa de Runetime sin una etapa de compilación previa.
 
 Si, y la razón es que el navegador lee linea por linea nuestro código el cuál le indica lo que tiene que hacer, sin la necesidad de compilar. Todo esto es controlado por el motor de Javascript V8 del navegador
 
+<a name="clase2"></a>
+## **<span style="color:yellow"> **Clase 2** ¿Por qué JavaScript? </span>** 
+
+
+
+ 
  
