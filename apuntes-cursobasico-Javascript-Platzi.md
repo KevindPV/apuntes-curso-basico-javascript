@@ -89,8 +89,3 @@ Si, y la razón es que el navegador lee linea por linea nuestro código el cuál
 [**Volver al inicio**](#inicio)
 <a name="clase2"></a>
 ## **<span style="color:yellow"> **Clase 2** ¿Por qué JavaScript? </span>** 
-
-
-
- 
- 
