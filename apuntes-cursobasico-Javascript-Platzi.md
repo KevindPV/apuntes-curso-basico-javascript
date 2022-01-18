@@ -33,7 +33,7 @@
 
 ## Modulo 4 Arrays
 
-* [**Clase 15**](#clase15)15 Arrays
+* [**Clase 15**](#clase15) Arrays
 
   
 ## Modulo 6 Loops
