@@ -8,7 +8,7 @@
 # CONTENIDO DEL CURSO
 ## [Modulo 1 Introducción a JavaScript](#modulo1)
 
-* **Clase 1** ¿Qué es JavaScript?
+* [**Clase 1**](#clase1) ¿Qué es JavaScript?
 * **Clase 2** ¿Por qué JavaScript?
 * **Clase 3** Elementos de un Lenguaje de Programación: Variables, Funciones y Sintaxis
 * **Clase 4** Variables en JavaScript 
@@ -64,6 +64,7 @@
 
 # **<span style="color:red"> Modulo 1 Introducción a JavaScript </span>** 
 
+<a name="clase1"></a>
 ## **<span style="color:yellow"> **Clase 1** ¿Qué es JavaScript? </span>** 
 
 ### **¿Cómo nace JavaScript?**
@@ -83,3 +84,5 @@ Corre directamente en la etapa de Runetime sin una etapa de compilación previa.
 ### **¿Realmente es JavaScript un lenguaje interpretado?**
 
 Si, y la razón es que el navegador lee linea por linea nuestro código el cuál le indica lo que tiene que hacer, sin la necesidad de compilar. Todo esto es controlado por el motor de Javascript V8 del navegador
+
+ 
