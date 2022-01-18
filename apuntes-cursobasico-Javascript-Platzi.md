@@ -1,15 +1,14 @@
 <!-- IMAGEN DE INICIO -->
-
+<a name="inicio"></a>
 
 ![Javascript logo](javascript-logo.png)
-<a name="inicio"></a>
 <!-- CONTENIDO CURSO -->
 
 
 # CONTENIDO DEL CURSO
 ## [Modulo 1 Introducción a JavaScript](#modulo1)
 
-* [**Clase 1**](#clase1) ¿Qué es JavaScript?
+* [**Clase 1**](#clase1)   ¿Qué es JavaScript?
 * [**Clase 2**](#clase2) ¿Por qué JavaScript?
 * [**Clase 3**](#clase3) Elementos de un Lenguaje de Programación: Variables, Funciones y Sintaxis
 * [**Clase 4**](#clase4) Variables en JavaScript 
