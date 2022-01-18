@@ -1,7 +1,8 @@
 <!-- IMAGEN DE INICIO -->
-<a name="inicio"></a>
-![Javascript logo](javascript-logo.png)
 
+
+![Javascript logo](javascript-logo.png)
+<a name="inicio"></a>
 <!-- CONTENIDO CURSO -->
 
 
