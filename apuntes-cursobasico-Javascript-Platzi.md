@@ -179,7 +179,7 @@ var persona = {
 
 ### ¿Como declarar una variable?
 
-se puede declarando e inicializar en la misma linea de codigo
+Se puede declarando e inicializar en la misma linea de codigo
 ```javascript
 var a = 0, b = 0;
 ```
