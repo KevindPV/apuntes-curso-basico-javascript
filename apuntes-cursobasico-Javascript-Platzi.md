@@ -227,7 +227,7 @@ saludar("Kevin");
 ```
   2. **Funciones expresivas**
   
-En esta funcion la declaración se inicia con la palabra reservada var, donde se generará una variable que guardará una función anónima.
+En esta funcion la declaración se inicia con la palabra reservada **var**, donde se generará una variable que guardará una función anónima.
 
 ```javascript
 
@@ -252,8 +252,11 @@ pero no sucede lo mismo en el caso de la funcion expresiva:
 
 ![clase5.2](clase5.2.png)
 
-
-
+| funcion declarativa | funcion expresiva |
+|---------------------|-------------------|
+| Se declara con| |
+| **funcion** | **var**|
+ 
 
 [**Volver al inicio**](#inicio)
 <a name="clase6"></a>
