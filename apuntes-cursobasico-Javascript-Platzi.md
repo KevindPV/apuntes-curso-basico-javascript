@@ -254,7 +254,7 @@ pero no sucede lo mismo en el caso de la funcion expresiva:
 | funcion declarativa | funcion expresiva |
 |---------------------|-------------------|
 | Se declara con|Se declara con |
-| **funcion** | **var**|
+| **function** | **var**|
  
 
 [**Volver al inicio**](#inicio)
