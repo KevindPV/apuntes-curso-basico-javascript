@@ -144,26 +144,44 @@ Estando en el navegador(en este caso google chrome) se ejecuta la accion inspecc
 ![clase3](clase%203.png)
 
 [**Volver al inicio**](#inicio)
-<a name="clase3"></a>
+<a name="clase4"></a>
 ## **Clase 4** Variables en JavaScript
 
 
 [**Volver al inicio**](#inicio)
-<a name="clase3"></a>
+<a name="clase5"></a>
 ## **Clase 5** Funciones en JavaScript
 
 [**Volver al inicio**](#inicio)
-<a name="clase3"></a>
+<a name="clase6"></a>
 ## **Clase 6** ¿Qué es una función declarativa y una expresiva?
 
 [**Volver al inicio**](#inicio)
-<a name="clase3"></a>
+<a name="clase7"></a>
 ## **Clase 7** Funciones en JavaScript
 
 [**Volver al inicio**](#inicio)
-<a name="clase3"></a>
+<a name="clase8"></a>
 ## **Clase 8** Funciones en JavaScript
 
 [**Volver al inicio**](#inicio)
-<a name="clase3"></a>
-## **Clase 9** Funciones en JavaScript
+<a name="clase9"></a>
+## **Clase 9** Coerción
+
+[**Volver al inicio**](#inicio)
+<a name="clase10"></a>
+## **Clase10** Valores: Truthy y Falsy 
+
+[**Volver al inicio**](#inicio)
+<a name="clase11"></a>
+## **Clase11** Operadores: Asignación, Comparación y Aritméticos.
+
+
+[**Volver al inicio**](#inicio)
+<a name="clase12"></a>
+## **Clase12**  Condicionales: If, Else, else if
+
+
+[**Volver al inicio**](#inicio)
+<a name="clase13"></a>
+## **Clase13** Switch
