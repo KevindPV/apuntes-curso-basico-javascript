@@ -214,7 +214,7 @@ Su contexto de es bloque: Solo funciona dentro de un bloque {}, fuera de ello no
 
 ### Basicamente tenemos dos tipos de funciones
 
- 1. Funciones declarativas
+ 1. **Funciones declarativas**
 
 
 En las funciones declarativas, utilizamos la palabra reservada **function** al inicio para poder declarar la función:
@@ -241,10 +241,19 @@ nombre("Kevin");
 ### Diferencias:
 
 A las funciones declarativas se les aplica hoisting, y a la expresión de función, no. Ya que el hoisting solo se aplica en las palabras reservadas **var** y **function**.
-
+![clase5](clase5.png "Hoisting")
 Lo que quiere decir que con las funciones declarativas, podemos mandar llamar la función antes de que ésta sea declarada, y con la expresión de función, no, tendríamos que declararla primero, y después mandarla llamar.
 
-![clase5](clase5.png "Hoisting")
+entonces en la funcion declarativa no va a haber problema si se llama la funcion antes o despues de declararla, como vemos a continuacion:
+
+![clase5.1](clase5.1.png)
+
+pero no sucede lo mismo en el caso de la funcion expresiva:
+
+![clase5.2](clase5.2.png)
+
+
+
 
 [**Volver al inicio**](#inicio)
 <a name="clase6"></a>
