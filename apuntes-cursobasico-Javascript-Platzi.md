@@ -151,7 +151,7 @@ Estando en el navegador(en este caso google chrome) se ejecuta la accion inspecc
 
 Variable es un lugar en memoria. Es una representación de algún lugar en la memoria para guardar datos
 
-![clase4](clase%204.png"verificacion de una variable en la consola")
+![clase4](clase%204.png "verificacion de una variable en la consola")
 
 [**Volver al inicio**](#inicio)
 <a name="clase5"></a>
