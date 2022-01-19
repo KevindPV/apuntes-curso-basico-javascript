@@ -106,4 +106,6 @@ JavaScript tiene una comunidad enorme de desarrolladores que te pueden ir ayudan
 
 ![node js logo](nodejslogo.jpg)
 
-
+[**Volver al inicio**](#inicio)
+<a name="clase3"></a>
+## **Clase 3** ¿Por qué JavaScript? 
