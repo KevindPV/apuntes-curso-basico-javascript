@@ -153,6 +153,37 @@ Variable es un lugar en memoria. Es una representación de algún lugar en la me
 
 ![clase4](clase%204.png "verificacion de una variable en la consola")
 
+### ¿Como es el ciclo para definir una variable?
+
+primero se declara y luego se inicializa
+
+```javascript
+var nombre = "Kevin";
+
+// declarar
+var edad;
+
+edad
+// inicializar
+edad = 30;
+
+edad
+
+var elementos = ["computadora", "celular"];
+
+var persona = {
+    nombre: "Kevin",
+    edad: 30
+}
+```
+
+### ¿Como declarar una variable?
+
+Declarando e inicializando dos variables:
+```javascript
+var a = 0, b = 0;
+```
+
 [**Volver al inicio**](#inicio)
 <a name="clase5"></a>
 ## **Clase 5** Funciones en JavaScript
