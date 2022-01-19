@@ -214,7 +214,7 @@ Su contexto de es bloque: Solo funciona dentro de un bloque {}, fuera de ello no
 
 ### Basicamente tenemos dos tipos de funciones
 
-1. Funciones declarativas
+ 1. Funciones declarativas
 
 
 En las funciones declarativas, utilizamos la palabra reservada **function** al inicio para poder declarar la función:
@@ -225,7 +225,7 @@ function saludar(nombre) {
 
 saludar("Kevin");
 ```
-  1. Funciones expresivas
+  2. **Funciones expresivas**
   
 En esta funcion la declaración se inicia con la palabra reservada var, donde se generará una variable que guardará una función anónima.
 
@@ -237,6 +237,14 @@ var nombre = function(nombre){
 
 nombre("Kevin");
 ```
+
+### Diferencias:
+
+A las funciones declarativas se les aplica hoisting, y a la expresión de función, no. Ya que el hoisting solo se aplica en las palabras reservadas **var** y **function**.
+
+Lo que quiere decir que con las funciones declarativas, podemos mandar llamar la función antes de que ésta sea declarada, y con la expresión de función, no, tendríamos que declararla primero, y después mandarla llamar.
+
+![clase5](clase5.png "Hoisting")
 
 [**Volver al inicio**](#inicio)
 <a name="clase6"></a>
