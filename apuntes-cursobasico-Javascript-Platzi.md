@@ -114,7 +114,7 @@ JavaScript tiene una comunidad enorme de desarrolladores que te pueden ir ayudan
  1. Data que guardamos en memoria
  2. Tareas(funciones) que haremos con esa data
 
-existen estos tipos de datos:
+Existen estos tipos de datos:
 
 ``` javascript
 // Tipos primitivos
@@ -139,3 +139,7 @@ undefined
 ```
 
 ### ¿Como comprobar que esta informacion? 
+
+Estando en el navegador(en este caso google chrome) se ejecuta la accion inspeccionar:
+
+![clase3](clase%203.png)
