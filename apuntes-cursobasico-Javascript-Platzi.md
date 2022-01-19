@@ -139,7 +139,7 @@ undefined
 
 ### ¿Como comprobar esta informacion? 
 
-Estando en el navegador(en este caso google chrome) se ejecuta la accion inspeccionar y al ejecutar en la consola los tipos de datos se puede verificar el tipo de dato:
+Estando en el navegador(en este caso google chrome) se ejecuta la accion inspeccionar y al ejecutar en la consola el comando **typeof** los tipos de datos se puede verificar el tipo de dato:
 
 ![clase3](clase%203.png)
 
@@ -147,6 +147,11 @@ Estando en el navegador(en este caso google chrome) se ejecuta la accion inspecc
 <a name="clase4"></a>
 ## **Clase 4** Variables en JavaScript
 
+### ¿Como podemos entender una variable?
+
+Variable es un lugar en memoria. Es una representación de algún lugar en la memoria para guardar datos
+
+![clase4](clase%204.png"verificacion de una variable en la consola")
 
 [**Volver al inicio**](#inicio)
 <a name="clase5"></a>
