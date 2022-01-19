@@ -114,3 +114,28 @@ JavaScript tiene una comunidad enorme de desarrolladores que te pueden ir ayudan
  1. Data que guardamos en memoria
  2. Tareas(funciones) que haremos con esa data
 
+existen estos tipos de datos:
+
+``` javascript
+// Tipos primitivos
+
+40 // numeros
+
+// strings
+"Diego de granda"
+
+// booleanos
+truefalse
+
+//valores vacios
+null
+undefined
+
+// tipos de objetos o no primitivos
+
+[1,2,3] // corchetes // arrays
+{ nombre: "Kevin"} // llaves / objetos
+
+```
+
+### ¿Como comprobar que esta informacion? 
