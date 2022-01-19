@@ -203,10 +203,7 @@ No se puede reinicilizar: es una const única no puede haber otra inicializada c
 No se pude re asignar: una vez que la hayamos inicializado no la podemos reasignar solo con su nombre: const pokemonType = ‘electric’ no puede ejecutarse:pokemonType = ‘grass’
 No es inmutable: osea no puede cambiar con objetos:
 
-Let: Son variables que pueden ser modificadas, se pueden cambiar:
-No se puede reinicilizar: es una const única no puede haber otra inicializada con el mismo nombre. let pokemonType = ‘electric’ no puede haber:let pokemonType = ‘grass’
-Se puede reasignar: Osea la variable ya inicializada le reasignamos otro valor por ejemplo: inicializamos la variable: let pokemonType = ‘electric’ ahora la reasignamos pokemonType = ‘grass’
-Su contexto de es bloque: Solo funciona dentro de un bloque {}, fuera de ello no.
+Let: Es una variable que también podra cambiar su valor, pero solo vivirá(Funcionara) en el bloque donde fue declarada.
 
 [**Volver al inicio**](#inicio)
 <a name="clase5"></a>
@@ -256,7 +253,7 @@ pero no sucede lo mismo en el caso de la funcion expresiva:
 
 | funcion declarativa | funcion expresiva |
 |---------------------|-------------------|
-| Se declara con| |
+| Se declara con|Se declara con |
 | **funcion** | **var**|
  
 
