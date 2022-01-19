@@ -13,52 +13,51 @@
 * [**Clase 3**](#clase3) Elementos de un Lenguaje de Programación: Variables, Funciones y Sintaxis
 * [**Clase 4**](#clase4) Variables en JavaScript 
 * [**Clase 5**](#clase5) Funciones en JavaScript
-* [**Clase 6**](#clase6) Funciones en JavaScript
-* [**Clase 7**](#clase7) ¿Qué es una función declarativa y una expresiva?  
+* [**Clase 6**](#clase6) ¿Qué es una función declarativa y una expresiva?  
   
 
 ## Modulo 2 Bases de JavaScript
 
-* [**Clase 8**](#clase8) Scope
-* [**Clase 9**](#clase9) Hoisting
-* [**Clase 10**](#clase10) Coerción
-* [**Clase 11**](#clase11) Valores: Truthy y Falsy
-* [**Clase 12**](#clase12) Operadores: Asignación, Comparación y Aritméticos.
+* [**Clase 7**](#clase7) Scope
+* [**Clase 8**](#clase8) Hoisting
+* [**Clase 9**](#clase9) Coerción
+* [**Clase 10**](#clase10) Valores: Truthy y Falsy
+* [**Clase 11**](#clase11) Operadores: Asignación, Comparación y Aritméticos.
 
 ## Modulo 3 Condicionales
 
-* [**Clase 13**](#clase13) Condicionales: If, Else, else if
-* [**Clase 14**](#clase14) Switch
+* [**Clase 12**](#clase12) Condicionales: If, Else, else if
+* [**Clase 13**](#clase13) Switch
   
 
 ## Modulo 4 Arrays
 
-* [**Clase 15**](#clase15) Arrays
+* [**Clase 14**](#clase14) Arrays
 
   
 ## Modulo 6 Loops
  
-* [**Clase 16**](#clase16) Loops: For y For...of
-* [**Clase 17**](#clase17) Loops: While
+* [**Clase 15**](#clase15) Loops: For y For...of
+* [**Clase 16**](#clase16) Loops: While
 
 
 ## Modulo 7 Objects
 
  
-* [**Clase 18**](#clase18) Objects
-* [**Clase 19**](#clase19) Objects: Función constructora
+* [**Clase 17**](#clase17) Objects
+* [**Clase 18**](#clase18) Objects: Función constructora
 
  
 ## Modulo 8 Métodos de Arrays
 
-* [**Clase 20**](#clase20) Métodos de recorridos de Arrays
-* [**Clase 21**](#clase21) Recorriendo Arrays con .find(), .forEach() y .some()
-* [**Clase 22**](#clase22) Eliminando elementos de un Array 
+* [**Clase 19**](#clase19) Métodos de recorridos de Arrays
+* [**Clase 20**](#clase20) Recorriendo Arrays con .find(), .forEach() y .some()
+* [**Clase 21**](#clase21) Eliminando elementos de un Array 
 
 
 ## Modulo 9 Próximos pasos con JavaScript
  
-* [**Clase 23**](#clase23) Continúa con el Curso Práctico de JavaScript
+* [**Clase 22**](#clase22) Continúa con el Curso Práctico de JavaScript
 
 <a name="modulo1"></a>
 
@@ -108,7 +107,7 @@ JavaScript tiene una comunidad enorme de desarrolladores que te pueden ir ayudan
 
 [**Volver al inicio**](#inicio)
 <a name="clase3"></a>
-## **Clase 3** ¿Por qué JavaScript? 
+## **Clase 3** Elementos de un Lenguaje de Programación: Variables, Funciones y Sintaxis
 
  Hay dos componentes principales:
  1. Data que guardamos en memoria
@@ -143,3 +142,28 @@ undefined
 Estando en el navegador(en este caso google chrome) se ejecuta la accion inspeccionar:
 
 ![clase3](clase%203.png)
+
+[**Volver al inicio**](#inicio)
+<a name="clase3"></a>
+## **Clase 4** Variables en JavaScript
+
+
+[**Volver al inicio**](#inicio)
+<a name="clase3"></a>
+## **Clase 5** Funciones en JavaScript
+
+[**Volver al inicio**](#inicio)
+<a name="clase3"></a>
+## **Clase 6** ¿Qué es una función declarativa y una expresiva?
+
+[**Volver al inicio**](#inicio)
+<a name="clase3"></a>
+## **Clase 7** Funciones en JavaScript
+
+[**Volver al inicio**](#inicio)
+<a name="clase3"></a>
+## **Clase 8** Funciones en JavaScript
+
+[**Volver al inicio**](#inicio)
+<a name="clase3"></a>
+## **Clase 9** Funciones en JavaScript
