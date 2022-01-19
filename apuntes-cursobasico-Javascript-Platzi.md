@@ -137,9 +137,9 @@ undefined
 
 ```
 
-### ¿Como comprobar que esta informacion? 
+### ¿Como comprobar esta informacion? 
 
-Estando en el navegador(en este caso google chrome) se ejecuta la accion inspeccionar:
+Estando en el navegador(en este caso google chrome) se ejecuta la accion inspeccionar y al ejecutar en la consola los tipos de datos se puede verificar el tipo de dato:
 
 ![clase3](clase%203.png)
 
