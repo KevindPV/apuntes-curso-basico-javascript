@@ -212,6 +212,32 @@ Su contexto de es bloque: Solo funciona dentro de un bloque {}, fuera de ello no
 <a name="clase5"></a>
 ## **Clase 5** Funciones en JavaScript
 
+### Basicamente tenemos dos tipos de funciones
+
+1. Funciones declarativas
+
+
+En las funciones declarativas, utilizamos la palabra reservada **function** al inicio para poder declarar la función:
+```javascript
+function saludar(nombre) {
+	console.log(`Hola ${nombre}`);
+}
+
+saludar("Kevin");
+```
+  1. Funciones expresivas
+  
+En esta funcion la declaración se inicia con la palabra reservada var, donde se generará una variable que guardará una función anónima.
+
+```javascript
+
+var nombre = function(nombre){
+    console.log(`Hola ${nombre}`)
+}
+
+nombre("Kevin");
+```
+
 [**Volver al inicio**](#inicio)
 <a name="clase6"></a>
 ## **Clase 6** ¿Qué es una función declarativa y una expresiva?
