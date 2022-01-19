@@ -109,3 +109,8 @@ JavaScript tiene una comunidad enorme de desarrolladores que te pueden ir ayudan
 [**Volver al inicio**](#inicio)
 <a name="clase3"></a>
 ## **Clase 3** ¿Por qué JavaScript? 
+
+ Hay dos componentes principales:
+ 1. Data que guardamos en memoria
+ 2. Tareas(funciones) que haremos con esa data
+
