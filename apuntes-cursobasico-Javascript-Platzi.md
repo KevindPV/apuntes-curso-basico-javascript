@@ -314,13 +314,31 @@ Son los tipos de datos primitivos que maneja JavaScript:
 <a name="clase7"></a>
 ## **Clase 7** Scope
 
-El scope de una variable hace referencia al lugar donde esta va a vivir , o podrá ser accesible.
-
-Podríamos decir también que scope es el alcance que determina la accesibilidad de las variables en cada parte de nuestro código. 
+El scope de una variable hace referencia al lugar donde esta va a vivir , o podrá ser accesible.Podríamos decir también que scope es el alcance que determina la accesibilidad de las variables en cada parte de nuestro código. 
 
 ¿Y para qué nos sirve el Scope?
 
-Entender bien el concepto de scope **ayuda a aumentar el nivel de seguridad** ya que delimita quienes tienen acceso y quienes no a determinadas partes de nuestro código, **también nos facilitará en la detección y disminución de errores**, por ende nuestro código será más robusto. 
+* Entender bien el concepto de scope **ayuda a aumentar el nivel de seguridad** ya que delimita quienes tienen acceso y quienes no a determinadas partes de nuestro código, **también nos facilitará en la detección y disminución de errores**, por ende nuestro código será más robusto. 
+
+Pensemos en el siguiente ejemplo para entenderlo mejor, una persona no puede acceder al espacio de una hormiga, esto implica que no les puede quitar facilmente la comida, ni puede sentarse a comer con ellas o a compartir y trabajar con ellas facilmente en grupo, sin embargo, desde la perspectiva de las hormigas es mas facil acceder al ser humano como tal, porque lo ve muy facil desde abajo.
+
+![clase7](clase%207.jpg)
+
+### Asi mismo en el scope local se puede llamar a las funciones globales pero desde el scope global no se puede llamar a una funcion local.
+
+Todo lo que esta en global, no puede acceder a lo local
+
+![clase7.1](clase7.png)
+
+### veamos que dentro de una funcion local se puede acceder a una variable global:
+
+![clase7.2](clase7.2.png)
+
+### Pero por el contrario, no se puede acceder a una variable local desde una funcion global:
+
+![clase7.3](clase7.3.png)
+
+### Y efectivamente aparece miApellido is not defined
 
 [**Volver al inicio**](#inicio)
 <a name="clase8"></a>
@@ -347,3 +365,6 @@ Entender bien el concepto de scope **ayuda a aumentar el nivel de seguridad** ya
 [**Volver al inicio**](#inicio)
 <a name="clase13"></a>
 ## **Clase13** Switch
+
+
+
