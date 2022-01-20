@@ -253,8 +253,8 @@ pero no sucede lo mismo en el caso de la funcion expresiva:
 
 | funcion declarativa | funcion expresiva |
 |---------------------|-------------------|
-| Se declara con|Se declara con |
-| **function** | **var**|
+| Se declara con **function** |Se declara con **var** |
+| **Si** se puede llamar la funcion antes de declararla | **No** se puede llamar la funcion antes de declararla|
 
 [**Volver al inicio**](#inicio)
 <a name="clase6"></a>
