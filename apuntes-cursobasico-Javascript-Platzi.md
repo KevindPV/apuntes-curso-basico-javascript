@@ -256,6 +256,30 @@ pero no sucede lo mismo en el caso de la funcion expresiva:
 | Se declara con|Se declara con |
 | **function** | **var**|
 
+[**Volver al inicio**](#inicio)
+<a name="clase6"></a>
+## **Clase 6** ¿Qué es una función declarativa y una expresiva?
+
+Recordemos! La funcion declarativa se inicia con la palabra **function** y la expresiva con **var**
+
+veamos un ejemplo
+
+```javascript
+
+// FunctionDeclaration
+function foo(){
+  // Some code goes here...
+}
+ 
+// FunctionExpression
+var foo = function(){
+  // Some code goes here...
+}
+
+```
+
+
+
 ## Quiz!
 
 Cual es la palabra clave que necesita una función para devolver una salida?
@@ -282,17 +306,15 @@ Son los tipos de datos primitivos que maneja JavaScript:
 
 * Para darle interacción y dinamismo a los sitios web.
 
-[**Volver al inicio**](#inicio)
-<a name="clase6"></a>
-## **Clase 6** ¿Qué es una función declarativa y una expresiva?
+
 
 [**Volver al inicio**](#inicio)
 <a name="clase7"></a>
-## **Clase 7** Funciones en JavaScript
+## **Clase 7** Scope
 
 [**Volver al inicio**](#inicio)
 <a name="clase8"></a>
-## **Clase 8** Funciones en JavaScript
+## **Clase 8** Hoisting
 
 [**Volver al inicio**](#inicio)
 <a name="clase9"></a>
