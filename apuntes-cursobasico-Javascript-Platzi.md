@@ -328,7 +328,7 @@ Pensemos en el siguiente ejemplo para entenderlo mejor, una persona no puede acc
 
 Todo lo que esta en global, no puede acceder a lo local
 
-![clase7.1](clase7.png)
+![clase7.1](clase7.1.png)
 
 ### veamos que dentro de una funcion local se puede acceder a una variable global:
 
