@@ -277,10 +277,12 @@ var foo = function(){
 }
 
 ```
+veamos un ejemplo de que efectivamente en la funcion declarativa se puede llamar la funcion despues de declararla:
 
+![clase6](clase6.png)
 
-
-## Quiz!
+![clase6.1](clase6.1.png)
+# Quiz!
 
 Cual es la palabra clave que necesita una función para devolver una salida?
 
@@ -311,6 +313,14 @@ Son los tipos de datos primitivos que maneja JavaScript:
 [**Volver al inicio**](#inicio)
 <a name="clase7"></a>
 ## **Clase 7** Scope
+
+El scope de una variable hace referencia al lugar donde esta va a vivir , o podrá ser accesible.
+
+Podríamos decir también que scope es el alcance que determina la accesibilidad de las variables en cada parte de nuestro código. 
+
+¿Y para qué nos sirve el Scope?
+
+Entender bien el concepto de scope **ayuda a aumentar el nivel de seguridad** ya que delimita quienes tienen acceso y quienes no a determinadas partes de nuestro código, **también nos facilitará en la detección y disminución de errores**, por ende nuestro código será más robusto. 
 
 [**Volver al inicio**](#inicio)
 <a name="clase8"></a>
