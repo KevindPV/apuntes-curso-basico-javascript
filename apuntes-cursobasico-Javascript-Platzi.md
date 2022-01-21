@@ -360,6 +360,7 @@ entendamoslo con los siguientes gifs:
 ![clase8](8.4.gif)
 ![clase8](8.5.gif)
 ![clase8](8.6.gif)
+
 [hoisting](https://dev.to/lydiahallie/javascript-visualized-hoisting-478h)
 
 Muy bien, entonces, en resumen...Las funciones y variables se almacenan en la memoria para un contexto de ejecución **antes** de que ejecutemos nuestro código. Esto se llama hoisting.
