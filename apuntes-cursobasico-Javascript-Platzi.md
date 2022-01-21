@@ -343,6 +343,20 @@ Todo lo que esta en global, no puede acceder a lo local
 [**Volver al inicio**](#inicio)
 <a name="clase8"></a>
 ## **Clase 8** Hoisting
+---
+
+### ¿Qué es Hoisting?
+
+#### Hosting, o elevación ***es el comportamiento por defecto de JavaScript de “mover declaraciones al principio” del código***.
+
+#### JavaScript es confuso por muchas razones. Hablando de hoisting, es importante saber que en este lenguaje, una variable puede ser declarada después de ser usada. Sí, ¡esto significa que se puede usar una variable antes de declararla
+
+entendamoslo con los siguientes gifs:
+
+![clase8](clase8.gif)
+![clase8](8.1.gif)
+
+
 
 [**Volver al inicio**](#inicio)
 <a name="clase9"></a>
