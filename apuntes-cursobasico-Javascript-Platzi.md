@@ -350,13 +350,19 @@ Todo lo que esta en global, no puede acceder a lo local
 #### Hosting, o elevación ***es el comportamiento por defecto de JavaScript de “mover declaraciones al principio” del código***.
 
 #### JavaScript es confuso por muchas razones. Hablando de hoisting, es importante saber que en este lenguaje, una variable puede ser declarada después de ser usada. Sí, ¡esto significa que se puede usar una variable antes de declararla
-
+ 
 entendamoslo con los siguientes gifs:
 
 ![clase8](clase8.gif)
 ![clase8](8.1.gif)
+![clase8](8.2.gif)
+![clase8](8.3.gif)
+![clase8](8.4.gif)
+![clase8](8.5.gif)
+![clase8](8.6.gif)
+[hoisting](https://dev.to/lydiahallie/javascript-visualized-hoisting-478h)
 
-
+Muy bien, entonces, en resumen...Las funciones y variables se almacenan en la memoria para un contexto de ejecución **antes** de que ejecutemos nuestro código. Esto se llama hoisting.
 
 [**Volver al inicio**](#inicio)
 <a name="clase9"></a>
