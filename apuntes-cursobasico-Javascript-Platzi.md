@@ -361,9 +361,25 @@ entendamoslo con los siguientes gifs:
 ![clase8](8.5.gif)
 ![clase8](8.6.gif)
 
-[hoisting](https://dev.to/lydiahallie/javascript-visualized-hoisting-478h)
+[link de esta informacion - hoisting](https://dev.to/lydiahallie/javascript-visualized-hoisting-478h)
 
 Muy bien, entonces, en resumen...Las funciones y variables se almacenan en la memoria para un contexto de ejecución **antes** de que ejecutemos nuestro código. Esto se llama hoisting.
+
+## y que pasa si se llama una funcion declarativa antes de declararla?, 
+
+pues veamos:
+
+![clase8](8.7.png)
+
+Queda como **undefined** debido a que al momento de ejecucion del programa esta funcion fue asignada como **undefined** en un espacio de memoria
+
+#### se procesan las funciones y las variables antes de ejecutar un codigo?
+
+* si, pero las funciones se declaran antes que las variables
+
+#### y entonces que debo hacer a la parte practica?
+
+* lo mejor seria por buenas practicas declarar las funciones en las primeras lineas de codigo y luego las variables para evitar problemas de hoisting. 
 
 [**Volver al inicio**](#inicio)
 <a name="clase9"></a>
