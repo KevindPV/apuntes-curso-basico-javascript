@@ -519,6 +519,8 @@ true || false // operador or (o), este operador genera una validacion siempre y 
 
 if () {    // estructura del if
 
+} else{
+  
 }
 ```
 
