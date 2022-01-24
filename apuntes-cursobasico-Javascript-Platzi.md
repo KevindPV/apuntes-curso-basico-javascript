@@ -66,10 +66,10 @@
  
 * [**Metodos**](#extra) aprendidos a lo largo del curso basico de JavaScript
 
-<a name="modulo1"></a>
+
 
 # **<span style="color:red"> Modulo 1 Introducción a JavaScript </span>** 
-
+<a name="modulo1"></a>
 [**Volver al inicio**](#inicio)
 <a name="clase1"></a>
 ## **<span style="color:yellow"> **Clase 1** ¿Qué es JavaScript? </span>** 
