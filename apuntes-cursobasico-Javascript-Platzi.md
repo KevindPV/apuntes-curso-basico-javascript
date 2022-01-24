@@ -64,7 +64,7 @@
 
 ## [Extra](#extra)
  
-* [**Metodos**](#clase22) aprendidos a lo largo del curso basico de JavaScript
+* [**Metodos**](#extra) aprendidos a lo largo del curso basico de JavaScript
 
 <a name="modulo1"></a>
 
