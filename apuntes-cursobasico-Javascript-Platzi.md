@@ -520,14 +520,14 @@ true || false // operador or (o), este operador genera una validacion siempre y 
 if () {    // estructura del if
 
 } else{
-  
+
 }
 ```
 
 ### Funcionamiento
 
 ```javascript 
-  edad = 17
+var edad = 17;
 
 if (edad >= 18) {     // si la edad es mayor o igual de 18 puede conducir 
     console.log("puedes conducir")
