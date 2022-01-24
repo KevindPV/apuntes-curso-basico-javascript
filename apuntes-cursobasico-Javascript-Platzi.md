@@ -64,7 +64,7 @@
 
 ## [Extra](#extra)
  
-* [**Metodos**](#extra) aprendidos a lo largo del curso basico de JavaScript
+* [**Metodos**](#metodos) aprendidos a lo largo del curso basico de JavaScript
 
 
 
@@ -630,5 +630,7 @@ else {
 
 # **Extra** 
 
+<a name="metodos"></a>
+## **Metodos** 
 ![metodos](metodos.png)
 
