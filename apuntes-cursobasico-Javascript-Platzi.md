@@ -626,10 +626,6 @@ else {
 #  **Modulo 4 Arrays** 
 
 
-<a name="extra"></a>
-
-# [**Extra**](#extra)
-
 <a name="metodos"></a>
 
 ## **Metodos** 
