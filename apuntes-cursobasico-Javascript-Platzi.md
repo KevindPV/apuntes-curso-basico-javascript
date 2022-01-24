@@ -462,7 +462,7 @@ Boolean(function(){}); //Cualquier función es verdadera también
 <a name="clase11"></a>
 ## **Clase11** Operadores: Asignación, Comparación y Aritméticos.
 
-| operadores |----|-----| 
+| operadores | en | Javascript| 
 |-----|--------|-----|
 |Asignación| Comparación|Aritméticos|
 | var a = 1 | == , === , < , <= , > , >= | + , - , * , / |
@@ -515,14 +515,25 @@ true || false // operador or (o), este operador genera una validacion siempre y 
 <a name="clase12"></a>
 ## **Clase12**  Condicionales: If, Else, else if
 
-var numero = 1; 
-var resultado; 
+```javascript 
 
-if(numero === 1) {
-    resultado = 'Sí son un 1'; 
-} else {
-    resultado = 'No soy un 1'; 
+if () {    // estructura del if
+
 }
+```
+
+### Funcionamiento
+
+```javascript 
+  edad = 17
+
+if (edad >= 18) {     // si la edad es mayor o igual de 18 puede conducir 
+    console.log("puedes conducir")
+} else{
+    console.log("no puedes conducir")
+}
+
+```
 
 [**Volver al inicio**](#inicio)
 <a name="clase13"></a>
