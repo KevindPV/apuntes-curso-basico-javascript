@@ -551,7 +551,7 @@ var resultado = numero === 1 ? "Si soy 1" : "No soy 1"
 
 ![12](12.png)
 
-### pregunta tricky , aunque el siguiente codigo corre bien, por que no funciona para la logica de jugar piedra papel o tijeras?
+### pregunta tricky , aunque el siguiente codigo corre bien, por que no funciona para la logica de jugar piedra, papel o tijeras?
 
 ```javascript
   var jugador = "tijera";
@@ -586,6 +586,33 @@ if (jugador == "piedra" && maquina == "tijeras"){
     } else{ console.log("perdiste")
     }
 
+```
+
+solucion al ejercicio de piedra, papel o tijera
+
+```javascript
+var jugador;
+var maquina;
+
+if (jugador == "tijeras"  && maquina == "papel") 
+{
+    console.log("Ganaste");
+}
+else if (jugador == "Piedra"  && maquina == "tijeras") 
+{
+    console.log("Ganaste");
+}
+else if (jugador == "papel"  && maquina == "piedra") 
+{
+    console.log("Ganaste");
+}
+else if (jugador == maquina ) 
+{
+    console.log("empate");
+}
+else {
+    console.log("Perdiste")
+}
 ```
 [**Volver al inicio**](#inicio)
 <a name="clase13"></a>
