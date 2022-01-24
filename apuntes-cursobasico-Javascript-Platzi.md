@@ -631,6 +631,8 @@ else {
 # [**Extra**](#extra)
 
 <a name="metodos"></a>
+
 ## **Metodos** 
+
 ![metodos](metodos.png)
 
