@@ -62,6 +62,10 @@
  
 * [**Clase 22**](#clase22) Continúa con el Curso Práctico de JavaScript
 
+## [Extra](#extra)
+ 
+* [**Clase 22**](#clase22) Continúa con el Curso Práctico de JavaScript
+
 <a name="modulo1"></a>
 
 # **<span style="color:red"> Modulo 1 Introducción a JavaScript </span>** 
@@ -622,4 +626,9 @@ else {
 #  **Modulo 4 Arrays** 
 
 
+<a name="extra"></a>
+
+#  **Extra** 
+
+![metodos](metodos.png)
 
