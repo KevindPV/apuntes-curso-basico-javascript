@@ -629,3 +629,14 @@ else {
 
 ![metodos](metodos.png)
 
+```javascript
+
+typeof // para verificar el tipo de variable de entrada
+console.log // para mostrar un dato en pantalla
+string()    // para forzar un dato a convertirse en string
+number()   // para forzar un dato a convertirse en un tipo numero
+alert // para mostrar una ventana en pantalla
+Boolean // para validar si un numero es false or true
+
+```
+
