@@ -462,6 +462,25 @@ Boolean(function(){}); //Cualquier función es verdadera también
 <a name="clase11"></a>
 ## **Clase11** Operadores: Asignación, Comparación y Aritméticos.
 
+| operadores |----|-----| 
+|-----|--------|-----|
+|Asignación| Comparación|Aritméticos|
+| var a = 1 | == , === , < , <= , > , >= | + , - , * , / |
+ 
+```javascript
+  // comparación 
+
+3 == '3' // es igual
+
+3 === '3' // es estrictamente igual 
+
+5 < 3, 5 <= 3, 5 > 3, 5 >= 3 // menor, menor o igual, mayo, mayor o igual 
+
+a && b // operador and (y), este operador genera una valicación siempe y cuando ambas variables sean verdad, "var 1 y var 2"
+
+true || false // operador or (o), este operador genera una validacion siempre y cuando cuaquier de as variables sea verdad, "var 1 o var 2"
+```
+
 [Expressions and operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 
 
