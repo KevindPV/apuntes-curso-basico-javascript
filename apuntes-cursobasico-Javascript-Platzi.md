@@ -62,8 +62,6 @@
  
 * [**Clase 22**](#clase22) Continúa con el Curso Práctico de JavaScript
 
-## [Extra](#extra)
-
 * [**Metodos**](#metodos) aprendidos a lo largo del curso basico de JavaScript
 
 
@@ -624,10 +622,6 @@ else {
 <a name="modulo4"></a>
 
 #  **Modulo 4 Arrays** 
-
-<a name="extra"></a>
-
-# [**Extra**]
 
 <a name="metodos"></a>
 
