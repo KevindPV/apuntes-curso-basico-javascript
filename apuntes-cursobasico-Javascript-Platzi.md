@@ -537,6 +537,56 @@ if (edad >= 18) {     // si la edad es mayor o igual de 18 puede conducir
 
 ```
 
+### Como puedo hacer una validacion if y else en una sola linea de codigo?
+
+```javascript
+  condition ? true : false;
+
+ejemplo
+
+var numero = 1
+
+var resultado = numero === 1 ? "Si soy 1" : "No soy 1"
+```
+
+![12](12.png)
+
+### pregunta tricky , aunque el siguiente codigo corre bien, por que no funciona para la logica de jugar piedra papel o tijeras?
+
+```javascript
+  var jugador = "tijera";
+var maquina = "papel";
+
+if (jugador == "piedra" && maquina == "tijeras"){
+    console.log ("ganaste")
+} else if (jugador == "piedra" || maquina =="papel" ){
+    console.log("perdiste")
+} else if (jugador == "tijera" && maquina == "papel"){
+    console.log("ganaste")
+}
+else{
+    console.log("perdiste")
+}
+```
+rta = porque como no esta debidamente indentado se va a ejecutar en un orden diferente al esperado
+
+### solucion:
+
+```javascript
+
+var jugador = "piedra";
+var maquina = "papel";
+
+if (jugador == "piedra" && maquina == "tijeras"){
+    console.log ("ganaste")
+    } else if (jugador == "tijera" && maquina == "papel"){
+    console.log("ganaste")
+    } else if (jugador == "piedra" || maquina =="papel" ){
+    console.log("perdiste")
+    } else{ console.log("perdiste")
+    }
+
+```
 [**Volver al inicio**](#inicio)
 <a name="clase13"></a>
 ## **Clase13** Switch
