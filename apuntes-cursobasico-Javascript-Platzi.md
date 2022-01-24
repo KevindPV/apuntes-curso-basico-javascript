@@ -591,25 +591,24 @@ if (jugador == "piedra" && maquina == "tijeras"){
 solucion al ejercicio de piedra, papel o tijera
 
 ```javascript
-var jugador;
-var maquina;
+var jugador = "papel";
+var maquina = "tijeras";
 
-if (jugador == "tijeras"  && maquina == "papel") 
-{
+if (jugador == "tijeras"  && maquina == "papel"){
     console.log("Ganaste");
-}
-else if (jugador == "Piedra"  && maquina == "tijeras") 
-{
+    }
+    else if (jugador == "Piedra"  && maquina == "tijeras") 
+    {
     console.log("Ganaste");
-}
-else if (jugador == "papel"  && maquina == "piedra") 
-{
+    }
+    else if (jugador == "papel"  && maquina == "piedra") 
+    {
     console.log("Ganaste");
-}
-else if (jugador == maquina ) 
-{
+    }
+    else if (jugador == maquina ) 
+    {
     console.log("empate");
-}
+    }
 else {
     console.log("Perdiste")
 }
