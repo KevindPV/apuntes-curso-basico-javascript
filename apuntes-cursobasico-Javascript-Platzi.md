@@ -16,7 +16,7 @@
 * [**Clase 6**](#clase6) ¿Qué es una función declarativa y una expresiva?  
   
 
-## Modulo 2 Bases de JavaScript
+## [Modulo 2 Bases de JavaScript](#modulo2)
 
 * [**Clase 7**](#clase7) Scope
 * [**Clase 8**](#clase8) Hoisting
@@ -27,38 +27,38 @@
 * [**Clase 10**](#clase10) Valores: Truthy y Falsy
 * [**Clase 11**](#clase11) Operadores: Asignación, Comparación y Aritméticos.
 
-## Modulo 3 Condicionales
+## [Modulo 3 Condicionales](#modulo3)
 
 * [**Clase 12**](#clase12) Condicionales: If, Else, else if
 * [**Clase 13**](#clase13) Switch
   
 
-## Modulo 4 Arrays
+## [Modulo 4 Arrays](#modulo4)
 
 * [**Clase 14**](#clase14) Arrays
 
   
-## Modulo 6 Loops
+## [Modulo 5 Loops](#modulo5)
  
 * [**Clase 15**](#clase15) Loops: For y For...of
 * [**Clase 16**](#clase16) Loops: While
 
 
-## Modulo 7 Objects
+## [Modulo 6 Objects](#modulo6)
 
  
 * [**Clase 17**](#clase17) Objects
 * [**Clase 18**](#clase18) Objects: Función constructora
 
  
-## Modulo 8 Métodos de Arrays
+## [Modulo 7 Métodos de Arrays](#modulo7)
 
 * [**Clase 19**](#clase19) Métodos de recorridos de Arrays
 * [**Clase 20**](#clase20) Recorriendo Arrays con .find(), .forEach() y .some()
 * [**Clase 21**](#clase21) Eliminando elementos de un Array 
 
 
-## Modulo 9 Próximos pasos con JavaScript
+## [Modulo 8 Próximos pasos con JavaScript](#modulo8)
  
 * [**Clase 22**](#clase22) Continúa con el Curso Práctico de JavaScript
 
@@ -312,6 +312,10 @@ Son los tipos de datos primitivos que maneja JavaScript:
 * Para darle interacción y dinamismo a los sitios web.
 
 
+<a name="modulo2"></a>
+
+#  **Modulo 2 Modulo Bases de JavaScript** 
+
 
 [**Volver al inicio**](#inicio)
 <a name="clase7"></a>
@@ -432,19 +436,82 @@ console.log(d);
 <a name="clase10"></a>
 ## **Clase10** Valores: Truthy y Falsy 
 
-[**Volver al inicio**](#inicio)
+Truthy y Falsy basicamente consiste en saber que valores por defecto son **falsos** o **verdaderos** en javascript,y esto es importante para hacer ciertos ciclos condicionales mas adelante, veamos ejemplos:
+
+```javascript
+//Ejemplos en los que Boolean devuelve Falso:
+Boolean(0); //false
+Boolean(null); //false
+Boolean(NaN); //false
+Boolean(undefined); //false
+Boolean(false); //false
+Boolean(""); //false
+
+//Ejemplos en los que Boolean devuelve verdadero:
+Boolean(1); //true para 1 o cualquier número diferente de cero (0)
+Boolean("a"); //true para cualquier caracter o espacio en blanco en el string
+Boolean([]); //true aunque el array esté vacío
+Boolean({}); //true aunque el objeto esté vacío
+Boolean(function(){}); //Cualquier función es verdadera también
+
+```
+
+[cheatset de js](https://javascript.pythoncheatsheet.org/#export)
+
+
 <a name="clase11"></a>
 ## **Clase11** Operadores: Asignación, Comparación y Aritméticos.
+
+[Expressions and operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+
+
+# Quiz del modulo
+
+## 1. ¿Qué diferencia hay entre comparar con "'==" y "==="?
+   
+* "==" compara valores. "===" compara valores y tipo de dato.
+
+## 2. ¿Cuál es la naturaleza de los valores booleanos?
+
+* true y false.
+
+## 3. ¿En qué consiste la coerción explícita?
+
+* En obligar cambiar el tipo de una variable a otra.
+
+## 4. ¿Qué valor se asigna por defecto a las variables cuando caen en hoisting?
+
+* undefined.
+
+## 5. En el scope local de una función puedo usar variables:
+   
+* Variables del scope global y locales de esa función.
+
+<a name="modulo3"></a>
+
+#  **Modulo 3 Condicionales**  
 
 
 [**Volver al inicio**](#inicio)
 <a name="clase12"></a>
 ## **Clase12**  Condicionales: If, Else, else if
 
+var numero = 1; 
+var resultado; 
+
+if(numero === 1) {
+    resultado = 'Sí son un 1'; 
+} else {
+    resultado = 'No soy un 1'; 
+}
 
 [**Volver al inicio**](#inicio)
 <a name="clase13"></a>
 ## **Clase13** Switch
+
+<a name="modulo4"></a>
+
+#  **Modulo 4 Arrays** 
 
 
 
