@@ -627,7 +627,8 @@ else {
 
 
 <a name="extra"></a>
-#  **Extra** 
+
+# **Extra** 
 
 ![metodos](metodos.png)
 
