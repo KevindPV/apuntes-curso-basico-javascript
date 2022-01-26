@@ -619,6 +619,73 @@ else {
 <a name="clase13"></a>
 ## **Clase13** Switch
 
+```javascript
+Syntaxis
+switch (expresión) {
+  case valor1:
+    //Declaraciones ejecutadas cuando el resultado de expresión coincide con el valor1
+    [break;]
+  case valor2:
+    //Declaraciones ejecutadas cuando el resultado de expresión coincide con el valor2
+    [break;]
+  ...
+  case valorN:
+    //Declaraciones ejecutadas cuando el resultado de expresión coincide con valorN
+    [break;]
+  default:
+    //Declaraciones ejecutadas cuando ninguno de los valores coincide con el valor de la expresión
+    [break;]
+}
+```
+tomado de [https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/switch](sw)
+
+veamos un ejemplo sencillo
+
+```javascript
+expr = 'Papayas'
+
+switch (expr) {
+    case 'Naranjas':
+      console.log('El kilogramo de naranjas cuesta $0.59.');
+      break;
+    case 'Manzanas':
+      console.log('El kilogramo de manzanas cuesta $0.32.');
+      break;
+    case 'Platanos':
+      console.log('El kilogramo de platanos cuesta $0.48.');
+      break;
+    case 'Cerezas':
+      console.log('El kilogramo de cerezas cuesta $3.00.');
+      break;
+    case 'Mangos':
+    case 'Papayas':
+      console.log('El kilogramo de mangos y papayas cuesta $2.79.');
+      break;
+    default:
+      console.log('Lo lamentamos, por el momento no disponemos de ' + expr + '.');
+  }
+  
+  console.log("¿Hay algo más que te quisiera consultar?");
+```
+
+## Quiz modulo 3
+
+### 1. ¿Qué pasa si no coloco la sentencia `break` en un `switch`?
+* Se validan todos los casos como verdaderos y se realizan las acciones asignadas a cada uno.
+
+### 2. ¿Qué retorna el siguiente código? if (false === !true) { console.log(false == true) } else { console.log(true === !false) }
+
+* false
+  
+### 3.¿En qué casos es conveniente utilizar `switch`?
+
+* Cuando tenemos múltiples casos a evaluar y evitar el uso de múltiples “if else”.
+
+### 4. ¿Para qué nos sirve el operador ternario "?" ?
+
+* Para definir una condición, el resultado cuando se cumple y cuando no se cumple, en una sola línea.
+
+
 <a name="modulo4"></a>
 
 #  **Modulo 4 Arrays** 
@@ -629,14 +696,163 @@ else {
 
 ![metodos](metodos.png)
 
-```javascript
+### typeof
 
-typeof // para verificar el tipo de variable de entrada
-console.log // para mostrar un dato en pantalla
-string()    // para forzar un dato a convertirse en string
-number()   // para forzar un dato a convertirse en un tipo numero
-alert // para mostrar una ventana en pantalla
-Boolean // para validar si un numero es false or true
+* El operador typeof devuelve una cadena que indica el tipo del operando sin evaluarlo. operando es la cadena, variable, palabra clave u objeto para el que se devolverá su tipo. Los paréntesis son opcionales. 
+[https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/typeof](typeof)
+
+```javascript
+var forma = "redonda"
+typeof forma === 'string'
+
+```
+### console.log
+
+* Muestra un mensaje en la consola web (o del intérprete JavaScript). 
+[https://developer.mozilla.org/es/docs/Web/API/Console/log](console.log)
+
+```javascript
+ console.log("hello world)
 
 ```
 
+
+### string()
+
+* para forzar un dato a convertirse en string 
+[https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String](string)
+
+```javascript
+let s1 = '2 + 2'              // crea una string primitiva
+let s2 = new String('2 + 2')  // crea un objeto String
+console.log(eval(s1))         // devuelve el número 4
+console.log(eval(s2))         // devuelve la cadena "2 + 2"
+
+```
+
+
+### number()
+
+* para forzar un dato a convertirse en un tipo, is a primitive wrapper object used to represent and manipulate numbers like 37 or -9.25.
+[https://www.w3schools.com/js/js_number_methods.asp]()
+
+```javascript
+Number('123')  // returns the number 123
+Number('123') === 123  // true
+
+```
+
+
+### alert
+
+* su finalidad es la de mostrar por pantalla mensajes de alerta encuadrados en una pequeña ventana modal. 
+[https://www.anerbarrena.com/javascript-alert-confirm-prompt-js-5497/]()
+
+```javascript
+	
+alert("Mi primer alert");
+
+```
+
+### Boolean
+
+* para validar si un numero es false or true 
+[]()
+
+```javascript
+
+Boolean(0); //false
+Boolean(null); //false
+Boolean(NaN); //false
+Boolean(undefined); //false
+Boolean(false); //false
+Boolean(""); //false
+
+//Ejemplos en los que Boolean devuelve verdadero:
+Boolean(1); //true para 1 o cualquier número diferente de cero (0)
+Boolean("a"); //true para cualquier caracter o espacio en blanco en el string
+Boolean([]); //true aunque el array esté vacío
+Boolean({}); //true aunque el objeto esté vacío
+Boolean(function(){}); //Cualquier función es verdadera también
+```
+
+## METODOS APRENDIDOS EN EL JUEGO DE PIEDRA PAPEL O TIJERA
+
+### onclick
+
+* The onclick event occurs when the user clicks on an element
+[https://www.w3schools.com/jsref/event_onclick.asp](onclick)
+
+```javascript
+            btn_iniciar.onclick = function() {
+                Menu = "inicio";
+                Opcion_cpu = num_aleatorio()
+                display_opcion_cpu(Opcion_cpu);
+                game(Opcion_jugador, Opcion_cpu);
+            }
+
+```
+
+### style.backgroundImage
+
+* le pone imagen a un boton 
+[https://www.w3schools.com/jsref/prop_style_backgroundimage.asp](style.backgroundImage)
+
+```javascript
+document.body.style.backgroundImage = "url('img_tree.png')";
+
+btn_piedra.style.backgroundImage = " url('./assets/images/piedra.png')";
+
+
+```
+
+### document.getElementById
+
+* Devuelve una referencia al elemento por su ID.
+
+ 
+[https://developer.mozilla.org/es/docs/Web/API/Document/getElementById](document.getElementById)
+
+HTML
+```html
+<html>
+<head>
+   <title>Ejemplo getElementById</title>
+</head>
+<body>
+   <p id="para">Cualquier texto acá</p>
+   <button onclick="changeColor('blue');">Azul</button>
+   <button onclick="changeColor('red');">Rojo</button>
+</body>
+</html>
+```
+
+javascript
+```javascript
+function changeColor(newColor) {
+   var elem = document.getElementById('para');
+   elem.style.color = newColor;
+}
+```
+Resultado
+* crea una ventana con dos botones, un boton cambia el color del texto a rojo y otro a azul
+
+### nombremetodo
+
+* descripcion 
+[]()
+
+```javascript
+
+
+```
+
+### nombremetodo
+
+* descripcion 
+[]()
+
+```javascript
+
+
+```
